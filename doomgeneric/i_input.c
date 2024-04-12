@@ -48,7 +48,7 @@ int vanilla_keyboard_mapping = 1;
 static int shiftdown = 0;
 
 // Lookup table for mapping AT keycodes to their doom keycode
-static const char at_to_doom[] =
+static const unsigned char at_to_doom[] =
 {
     /* 0x00 */ 0x00,
     /* 0x01 */ KEY_ESCAPE,
